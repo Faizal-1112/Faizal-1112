@@ -5,14 +5,41 @@
 ## 🚀 Tech Stack & Tools
 
 <div align="center">
-  
-  | Category        | Technologies                                                                 |
-  |----------------|------------------------------------------------------------------------------|
-  | **Frontend**   | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)  |
-  | **Styling**    | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?logo=framer&logoColor=white&style=for-the-badge) |
-  | **Backend**    | ![NextAuth](https://img.shields.io/badge/-NextAuth.js-000000?logo=next.js&logoColor=white&style=for-the-badge) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge) |
-  | **Tools**      | ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge) |
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+    <!-- Frontend Card -->
+    <div style="background: #0f172a; padding: 1rem; border-radius: 8px; min-width: 200px;">
+      <h3>Frontend</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+        <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" height="24">
+        <img src="https://img.shields.io/badge/Next.js-000000?logo=next.js" alt="Next.js" height="24">
+      </div>
+    </div>
+    <!-- Styling Card -->
+    <div style="background: #0f172a; padding: 1rem; border-radius: 8px; min-width: 200px;">
+      <h3>Styling</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+        <img src="https://img.shields.io/badge/Tailwind-000?logo=tailwind-css" alt="Tailwind" height="24">
+        <img src="https://img.shields.io/badge/Framer-0055FF?logo=framer" alt="Framer" height="24">
+      </div>
+    </div>
+    <!-- Backend Card -->
+    <div style="background: #0f172a; padding: 1rem; border-radius: 8px; min-width: 200px;">
+      <h3>Backend</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+        <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb" alt="MongoDB" height="24">
+        <img src="https://img.shields.io/badge/NextAuth-000000?logo=next.js" alt="NextAuth" height="24">
+      </div>
+    </div>
+    <!-- Tools Card -->
+    <div style="background: #0f172a; padding: 1rem; border-radius: 8px; min-width: 200px;">
+      <h3>Tools</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+        <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code" alt="VSCode" height="24">
+        <img src="https://img.shields.io/badge/Git-fff?logo=git" alt="Git" height="24">
+      </div>
+    </div>
 
+  </div>
 </div>
 
 ## 🚀 Featured Projects
@@ -40,6 +67,29 @@
       </div> 
     </td> 
   </tr>   
+  <tr> 
+    <td width="50%"> 
+      <h3 align="center">Project 1</h3> 
+      <div align="center"> 
+        <a href="#"> 
+          <img src="https://placehold.co/600x400/3b82f6/white?text=Project+1" width="400" height="250"/> 
+        </a> 
+        <p><em>Tech: Next.js, MongoDB, NextAuth</em></p> 
+        <p>✨ Feature 1 | ✨ Feature 2 | ✨ Feature 3</p> 
+      </div> 
+    </td>   
+    <td width="50%"> 
+      <h3 align="center">Project 4</h3> 
+      <div align="center"> 
+        <a href="#"> 
+          <img src="https://placehold.co/600x400/8b5cf6/white?text=Project+2" width="400" height="250"/> 
+        </a> 
+        <p><em>Tech: React, Tailwind</em></p> 
+        <p>✨ Feature 1 | ✨ Feature 2 | ✨ Feature 3</p> 
+      </div> 
+    </td> 
+  </tr>   
+  
 </table>
 </div>
 
@@ -49,7 +99,7 @@
 graph LR
     Basics[HTML/CSS/JS] --> React
     React --> Next
-    Next --> Deployment[Vercel]
+    Next --> Deployment[Netlify]
     Node[Node Basics] --> Next
     Next --> Fullstack[Fullstack Apps]
 ```
